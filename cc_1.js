@@ -9,9 +9,9 @@ console.log(isActive, typeof(isActive));
 // Task 2: Compound Data Types
 let products = ["ferrari, chili pepper, sunglasses"];
 const productdetails = {
-    productname = "ferrari"
-    price = 120.00
-    inStock = true
+    name : "ferrari",
+    price : 120.00,
+    inStock : true,
 }
 console.log (products, productdetails);
 
@@ -28,3 +28,15 @@ accountbalance /=5.00;
 console.log (accountbalance); // 255.00
 accountbalance %=3.00;
 console.log (accountbalance); // 0.00
+
+// Task 4: Comparison Operators
+employeeScore1 = 55;
+employeeScore2 = 61;
+
+console.log(employeeScore1>employeeScore2);
+console.log(employeeScore1<employeeScore2);
+console.log(employeeScore1>=employeeScore2);
+console.log(employeeScore1<=employeeScore2);
+console.log(employeeScore1===employeeScore2);
+console.log(employeeScore1!==employeeScore2);
+
